@@ -211,6 +211,22 @@
     <string name="module_installer_working">جارٍ التنزيل والتثبيت…</string>
     <string name="module_version_error">غير قادر على تحديد إصدار وحدة النواة</string>
     <string name="mtu">وحدة النقل العظمى (MTU)</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">سيؤدي تشغيل نفق واحد إلى إيقاف تشغيل الأنفاق الأخرى</string>
     <string name="multiple_tunnels_summary_on">يمكن تشغيل أنفاق متعددة في نفس الوقت</string>
     <string name="multiple_tunnels_title">السماح بأنفاق متعددة متزامنة</string>
@@ -295,4 +311,5 @@
     <string name="biometric_prompt_private_key_title">تحتاج للاستيثاق لعرض المفتاح الخاص</string>
     <string name="biometric_auth_error">فشل في المصادقة</string>
     <string name="biometric_auth_error_reason">فشل في المصادقة: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
 </resources>
