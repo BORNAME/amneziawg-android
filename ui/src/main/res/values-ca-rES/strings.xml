@@ -79,6 +79,8 @@
     <string name="bad_config_reason_unknown_section">Secció desconeguda</string>
     <string name="bad_config_reason_value_out_of_range">Valor fora de rang</string>
     <string name="bad_extension_error">El fitxer ha de ser .conf o .zip</string>
+    <string name="error_no_qr_found">QR code not found in image</string>
+    <string name="error_qr_checksum">QR code checksum verification failed</string>
     <string name="cancel">Cancel·la</string>
     <string name="config_delete_error">No es pot esborrar fitxer de configuració %s</string>
     <string name="config_exists_error">Configuració per \"%s\" ja existeix</string>
@@ -108,11 +110,13 @@
     <string name="disable_config_export_title">Desactiva l\'exportació de configuracions</string>
     <string name="disable_config_export_description">Desactivar l\'exportacio de configuracions fa que les claus privades siguin menys accessibles</string>
     <string name="dns_servers">Servidors DNS</string>
+    <string name="dns_search_domains">Search domains</string>
     <string name="edit">Edita</string>
     <string name="endpoint">Extrem</string>
     <string name="error_down">Error desactivant el túnel: %s</string>
     <string name="error_fetching_apps">Error obtenint llista d\'aplicacions: %s</string>
     <string name="error_root">Si us plau, obteniu accés root i torneu a intentar</string>
+    <string name="error_prepare">Error preparing tunnel: %s</string>
     <string name="error_up">Error activant túnel: %s</string>
     <string name="exclude_private_ips">Exclou IPs privades</string>
     <string name="generate_new_private_key">Genera nova clau privada</string>
@@ -132,6 +136,8 @@
     <string name="key_length_explanation_base64">: Les claus en base64 a AmneziaWG han de tenir 44 caràcters (32 bytes)</string>
     <string name="key_length_explanation_binary">: Les claus AmneziaWG han de ser de 32 bytes</string>
     <string name="key_length_explanation_hex">: Les claus en hexadecimal a AmneziaWG han de tenir 64 caràcters (32 bytes)</string>
+    <string name="latest_handshake">Latest handshake</string>
+    <string name="latest_handshake_ago">%s ago</string>
     <string name="listen_port">Port d\'escolta</string>
     <string name="log_export_error">No s\'ha estat capaç d\'exportar el registre: %s</string>
     <string name="log_export_subject">AmneziaWG Android Log File</string>
@@ -144,13 +150,31 @@
     <string name="logcat_error">No es pot executar logcat: </string>
     <string name="module_enabler_disabled_summary">El mòdul experimental del kernel pot millorar el rendiment</string>
     <string name="module_enabler_disabled_title">Activa el backend del mòdul del kernel</string>
+    <string name="module_enabler_enabled_summary">The slower userspace backend may improve stability</string>
     <string name="module_enabler_enabled_title">Desactiva el backend del mòdul del kernel</string>
     <string name="module_installer_error">Alguna cosa ha anat malament. Si us plau, prova de nou</string>
+    <string name="module_installer_initial">The experimental kernel module can improve performance</string>
     <string name="module_installer_not_found">El vostre dispositiu no té mòduls disponibles</string>
     <string name="module_installer_title">Descàrega i instala el mòdul kernel</string>
     <string name="module_installer_working">Descarregant i instalant…</string>
     <string name="module_version_error">No s\'ha pogut determinar la versió del mòdul del kernel</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">Activar un túnel desactivarà els altres</string>
     <string name="multiple_tunnels_summary_on">Múltiples túnels es podran activar a la vegada</string>
     <string name="multiple_tunnels_title">Permet múltiples túnels simultanis</string>
@@ -158,6 +182,7 @@
     <string name="no_config_error">Intentant activar un túnel que no té configuració</string>
     <string name="no_configs_error">No s\'ha trobat cap configuració</string>
     <string name="no_tunnels_error">No existeixen túnels</string>
+    <string name="parse_error_generic">string</string>
     <string name="parse_error_inet_address">Adreça IP</string>
     <string name="parse_error_inet_endpoint">extrem</string>
     <string name="parse_error_inet_network">Xarxa IP</string>
@@ -172,6 +197,10 @@
     <string name="private_key">Clau privada</string>
     <string name="public_key">Clau pública</string>
     <string name="qr_code_hint">Consell: generar amb `qrencode -t ansiutf8 &lt; tunnel.conf`.</string>
+    <string name="quick_settings_tile_add_title">Add tile to quick settings panel</string>
+    <string name="quick_settings_tile_add_summary">The shortcut tile toggles the most recent tunnel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">No s\'activaran els túnels seleccionats al arrancar el sistema</string>
     <string name="restore_on_boot_summary_on">S\'activaran els túnels seleccionats al arrancar el sistema</string>
     <string name="restore_on_boot_title">Restableix a l\'inici</string>
@@ -186,6 +215,9 @@
     <string name="toggle_error">Error al canviar el túnel AmneziaWG: %s</string>
     <string name="tools_installer_already">awg i awg-quick ja estan instalats</string>
     <string name="tools_installer_failure">No s\'ha pogut instalar les eines de linia de comandes (ets root?)</string>
+    <string name="tools_installer_initial">Install optional tools for scripting</string>
+    <string name="tools_installer_initial_magisk">Install optional tools for scripting as Magisk module</string>
+    <string name="tools_installer_initial_system">Install optional tools for scripting into the system partition</string>
     <string name="tools_installer_success_magisk">awg i awg-quick instalats com a mòdul de Magisk (es necessita reinicar)</string>
     <string name="tools_installer_success_system">awg i awg-quick instalats a la partició de sistema</string>
     <string name="tools_installer_title">Instala les eines de la línia d\'ordres</string>
@@ -204,13 +236,17 @@
     <string name="tunnel_create_success">El túnel \"%s\" s\'ha creat correctament</string>
     <string name="tunnel_error_already_exists">El túnel \"%s\" ja existeix</string>
     <string name="tunnel_error_invalid_name">Nom no vàlid</string>
+    <string name="tunnel_list_placeholder">Add a tunnel using the button below</string>
     <string name="tunnel_name">Nom del túnel</string>
     <string name="tunnel_on_error">No s\'ha estat capaç d\'activar el túnel (wgTurnOn ha retornat %d)</string>
     <string name="tunnel_dns_failure">Impossible resoldre el nom del domini \"%s\"</string>
     <string name="tunnel_rename_error">No s\'ha pogut renombrar el túnel: %s</string>
     <string name="tunnel_rename_success">El nom del túnel s\'ha canviat correctament a \"%s\"</string>
+    <string name="type_name_go_userspace">Go userspace</string>
     <string name="type_name_kernel_module">Mòdul del kernel</string>
     <string name="unknown_error">Error desconegut</string>
+    <string name="version_summary">%1$s backend %2$s</string>
+    <string name="version_summary_checking">Checking %s backend version</string>
     <string name="version_summary_unknown">Versió de %s desconeguda</string>
     <string name="version_title">AmneziaWG per a Android v%s</string>
     <string name="vpn_not_authorized_error">Servei de VPN no autoritzat per l\'usuari</string>
@@ -223,4 +259,5 @@
     <string name="biometric_prompt_private_key_title">Autentifiqueu-vos per veure la clau privada</string>
     <string name="biometric_auth_error">Error d\'autenticació</string>
     <string name="biometric_auth_error_reason">Error d\'autenticació: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
 </resources>
