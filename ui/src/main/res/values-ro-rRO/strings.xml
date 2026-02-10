@@ -172,6 +172,22 @@
     <string name="module_installer_working">Se descarcă și se instalează…</string>
     <string name="module_version_error">Nu se poate determina versiunea modulului de nucleu</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">Pornirea unui tunel va opri celelalte tuneluri</string>
     <string name="multiple_tunnels_summary_on">Mai multe tunele pot fi pornite simultan</string>
     <string name="multiple_tunnels_title">Permite mai multe tuneluri simultane</string>
@@ -196,6 +212,8 @@
     <string name="qr_code_hint">Sfat: generează cu `qrencode -t ansiutf8 &lt; tunnel.conf`.</string>
     <string name="quick_settings_tile_add_title">Adaugă secțiune la panoul de setări rapide</string>
     <string name="quick_settings_tile_add_summary">Comanda rapidă comută cel mai recent tunel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">Tunelurile activate nu vor fi pornite odată cu pornirea dispozitivului</string>
     <string name="restore_on_boot_summary_on">Tunelurile activate vor fi pornite odată cu pornirea dispozitivului</string>
     <string name="restore_on_boot_title">Restaurare la pornire</string>
@@ -231,6 +249,7 @@
     <string name="tunnel_create_success">Tunelul „%s” a fost creat</string>
     <string name="tunnel_error_already_exists">Tunelul „%s” există deja</string>
     <string name="tunnel_error_invalid_name">Nume invalid</string>
+    <string name="tunnel_list_placeholder">Add a tunnel using the button below</string>
     <string name="tunnel_name">Numele tunelului</string>
     <string name="tunnel_on_error">Tunelul nu poate fi pornit (wgTurnOn a returnat %d)</string>
     <string name="tunnel_dns_failure">Nu se poate rezolva numele gazdei DNS: „%s”</string>
@@ -253,4 +272,5 @@
     <string name="biometric_prompt_private_key_title">Autentifică-te pentru a vizualiza cheia privată</string>
     <string name="biometric_auth_error">Eroare la autentificare</string>
     <string name="biometric_auth_error_reason">Eroare la autentificare: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
 </resources>
