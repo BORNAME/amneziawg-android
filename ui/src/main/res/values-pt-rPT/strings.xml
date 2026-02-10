@@ -79,6 +79,8 @@
     <string name="bad_config_reason_unknown_section">Secção desconhecida</string>
     <string name="bad_config_reason_value_out_of_range">Valor fora do intervalo</string>
     <string name="bad_extension_error">O ficheiro tem que ser do tipo .conf ou .zip</string>
+    <string name="error_no_qr_found">QR code not found in image</string>
+    <string name="error_qr_checksum">QR code checksum verification failed</string>
     <string name="cancel">Cancelar</string>
     <string name="config_delete_error">Não é possível apagar arquivo de configuração %s</string>
     <string name="config_exists_error">A configuração para \"%s\" já existe</string>
@@ -108,11 +110,13 @@
     <string name="disable_config_export_title">Desativar exportação de configuração</string>
     <string name="disable_config_export_description">Desativar a exportação de configuração torna as chaves privadas menos acessíveis</string>
     <string name="dns_servers">Servidores de DNS</string>
+    <string name="dns_search_domains">Search domains</string>
     <string name="edit">Editar</string>
     <string name="endpoint">Endpoint</string>
     <string name="error_down">Erro ao fechar túnel: %s</string>
     <string name="error_fetching_apps">Erro ao obter lista de aplicações: %s</string>
     <string name="error_root">Por favor, obtenha acesso root e tente novamente</string>
+    <string name="error_prepare">Error preparing tunnel: %s</string>
     <string name="error_up">Erro ao abrir túnel: %s</string>
     <string name="exclude_private_ips">Excluir IPs privados</string>
     <string name="generate_new_private_key">Gerar nova chave privada</string>
@@ -132,6 +136,8 @@
     <string name="key_length_explanation_base64">: Chaves base64 do AmneziaWG têm que ter 44 caracteres (32 bytes)</string>
     <string name="key_length_explanation_binary">: Chaves de AmneziaWG têm que ter 32 bytes</string>
     <string name="key_length_explanation_hex">: Chaves hexadecimais do AmneziaWG têm que ter 64 caracteres (32 bytes)</string>
+    <string name="latest_handshake">Latest handshake</string>
+    <string name="latest_handshake_ago">%s ago</string>
     <string name="listen_port">Porta de escuta</string>
     <string name="log_export_error">Não foi possível exportar o log: %s</string>
     <string name="log_export_subject">Arquivo de log do AmneziaWG Android</string>
@@ -153,6 +159,22 @@
     <string name="module_installer_working">A transferir e instalar…</string>
     <string name="module_version_error">Não foi possível determinar a versão do módulo de kernel</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">Ativar um túnel irá desativar todos os outros</string>
     <string name="multiple_tunnels_summary_on">Vários túneis podem ser ativados simultaneamente</string>
     <string name="multiple_tunnels_title">Permitir vários túneis em simultâneo</string>
@@ -175,6 +197,10 @@
     <string name="private_key">Chave privada</string>
     <string name="public_key">Chave Pública</string>
     <string name="qr_code_hint">Dica: gerar com `qrencode -t ansiutf8 &lt; tunnel.conf`.</string>
+    <string name="quick_settings_tile_add_title">Add tile to quick settings panel</string>
+    <string name="quick_settings_tile_add_summary">The shortcut tile toggles the most recent tunnel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">Não abrirá túneis ativos durante o arranque</string>
     <string name="restore_on_boot_summary_on">Abrirá túneis ativos durante o arranque</string>
     <string name="restore_on_boot_title">Restaurar no arranque</string>
@@ -210,13 +236,16 @@
     <string name="tunnel_create_success">Túnel criado com sucesso “%s”</string>
     <string name="tunnel_error_already_exists">O túnel “%s” já existe</string>
     <string name="tunnel_error_invalid_name">Nome inválido</string>
+    <string name="tunnel_list_placeholder">Add a tunnel using the button below</string>
     <string name="tunnel_name">Nome do túnel</string>
     <string name="tunnel_on_error">Não foi possível ligar o túnel (wgTurnOn retornou %d)</string>
+    <string name="tunnel_dns_failure">Unable to resolve DNS hostname: “%s”</string>
     <string name="tunnel_rename_error">Não foi possível renomear o túnel: %s</string>
     <string name="tunnel_rename_success">Túnel renomeado com sucesso para “%s”</string>
     <string name="type_name_go_userspace">Go userspace</string>
     <string name="type_name_kernel_module">Módulo de kernel</string>
     <string name="unknown_error">Erro desconhecido</string>
+    <string name="version_summary">%1$s backend %2$s</string>
     <string name="version_summary_checking">A verificar versão de backend %s</string>
     <string name="version_summary_unknown">Versão %s desconhecida</string>
     <string name="version_title">AmneziaWG para Android v%s</string>
@@ -230,4 +259,5 @@
     <string name="biometric_prompt_private_key_title">Autenticar para ver a chave privada</string>
     <string name="biometric_auth_error">Falha de autenticação</string>
     <string name="biometric_auth_error_reason">Falha de autenticação: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
 </resources>
