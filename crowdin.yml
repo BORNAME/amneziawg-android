@@ -1,1 +1,12 @@
-files: []
+files:
+  - source: /ui/src/main/res/values/
+    ignore:
+      - '**/colors.xml'
+      - '**/dimens.xml'
+      - '**/ids.xml'
+      - '**/ic_launcher_background.xml'
+    translation: /ui/src/main/res/values-%android_code%/%original_file_name%
+    translatable_elements:
+      - /resources/string
+      - /resources/string-array/item
+      - /resources/plurals/item
