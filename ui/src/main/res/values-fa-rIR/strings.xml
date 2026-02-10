@@ -117,6 +117,7 @@
     <string name="error_down">خطا هنگام بستن تونل: %s</string>
     <string name="error_fetching_apps">خطا هنگام واکشی فهرست برنامه‌ها: %s</string>
     <string name="error_root">لطفا دسترسی روت را فراهم‌کرده و دوباره تلاش کنید</string>
+    <string name="error_prepare">Error preparing tunnel: %s</string>
     <string name="error_up">خطا هنگام راه‌اندازی تونل: %s</string>
     <string name="exclude_private_ips">مستثنی کردن IPهای خصوصی</string>
     <string name="generate_new_private_key">تولید کلید خصوصی جدید</string>
@@ -136,6 +137,8 @@
     <string name="key_length_explanation_base64">: کلیدهای AmneziaWG base64 باید دارای ۴۴ نویسه باشند ( ۳۲ بایت)</string>
     <string name="key_length_explanation_binary">: کلیدهای AmneziaWG باید ۳۲ بایت باشند</string>
     <string name="key_length_explanation_hex">: کلیدهای هگز AmneziaWG باید دارای ۶۴ نویسه باشند ( ۳۲ بایت)</string>
+    <string name="latest_handshake">Latest handshake</string>
+    <string name="latest_handshake_ago">%s ago</string>
     <string name="listen_port">شنود پورت</string>
     <string name="log_export_error">نمی‌توان گزارش رویداد را برون‌برد: %s</string>
     <string name="log_export_subject">پرونده گزارش رویداد AmneziaWG اندروید</string>
@@ -157,6 +160,22 @@
     <string name="module_installer_working">در حال بارگیری و نصب…</string>
     <string name="module_version_error">نمی‌توان نگارش واحد هسته را مشخص کرد</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">روشن کردن یک تونل ، تونل های دیگر را خاموش خواهد کرد</string>
     <string name="multiple_tunnels_summary_on">تونل های چندتایی ممکن است استفاده همزمان را فعال کند</string>
     <string name="multiple_tunnels_title">تونل چندگانه همزمان</string>
@@ -179,6 +198,10 @@
     <string name="private_key">کلید خصوصی</string>
     <string name="public_key">کلید عمومی</string>
     <string name="qr_code_hint">نکته: با `qrencode -t ansiutf8 &lt; tunnel.conf` تولید کنید.</string>
+    <string name="quick_settings_tile_add_title">Add tile to quick settings panel</string>
+    <string name="quick_settings_tile_add_summary">The shortcut tile toggles the most recent tunnel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">تونل های فعال در لحظه بالا آمدن سیستم، روشن نخواهند شد</string>
     <string name="restore_on_boot_summary_on">تونل های فعال در لحظه بالا آمدن سیستم، روشن خواهند شد</string>
     <string name="restore_on_boot_title">بازگردانی در بوت</string>
@@ -215,6 +238,7 @@
     <string name="tunnel_create_success">تونل “%s” با موفقیت ساخته شد</string>
     <string name="tunnel_error_already_exists">تونل “%s” از قبل وجود دارد</string>
     <string name="tunnel_error_invalid_name">نام نامعتبر</string>
+    <string name="tunnel_list_placeholder">Add a tunnel using the button below</string>
     <string name="tunnel_name">نام تونل</string>
     <string name="tunnel_on_error">روشن کردن تونل امکان پذیر نیست (wgTurnOn برگشت %d )</string>
     <string name="tunnel_dns_failure">ناتوان در یافتن DNS نام میزبان: \"%s\"</string>
@@ -237,4 +261,5 @@
     <string name="biometric_prompt_private_key_title">برای دیدن کلید خصوصی، هویت خود را تایید کنید</string>
     <string name="biometric_auth_error">شکست در تایید هویت</string>
     <string name="biometric_auth_error_reason">شکست در تایید هویت: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
 </resources>
