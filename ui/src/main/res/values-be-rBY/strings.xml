@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="delete_error">
-        <item quantity="one">Unable to delete %d tunnel: %s</item>
-        <item quantity="few">Unable to delete %d tunnels: %s</item>
-        <item quantity="many">Unable to delete %d tunnels: %s</item>
-        <item quantity="other">Unable to delete %d tunnels: %s</item>
+        <item quantity="one">Немагчыма выдаліць %d тунэль: %s</item>
+        <item quantity="few">Немагчыма выдаліць %d тунэлі: %s</item>
+        <item quantity="many">Немагчыма выдаліць %d тунэляў: %s</item>
+        <item quantity="other">Немагчыма выдаліць %d тунэляў: %s</item>
     </plurals>
     <plurals name="delete_success">
-        <item quantity="one">Successfully deleted %d tunnel</item>
-        <item quantity="few">Successfully deleted %d tunnels</item>
-        <item quantity="many">Successfully deleted %d tunnels</item>
-        <item quantity="other">Successfully deleted %d tunnels</item>
+        <item quantity="one">Паспяхова выдалены %d тунэль</item>
+        <item quantity="few">Паспяхова выдалены %d тунэлі</item>
+        <item quantity="many">Паспяхова выдалены %d тунэляў</item>
+        <item quantity="other">Паспяхова выдалены %d тунэляў</item>
     </plurals>
     <plurals name="delete_title">
         <item quantity="one">%d тунэль выбраны</item>
@@ -81,7 +81,7 @@
         <item quantity="many">секунд</item>
         <item quantity="other">секунд</item>
     </plurals>
-    <string name="use_all_applications">Use all apps</string>
+    <string name="use_all_applications">Выкарыстоўваць усе праграмы</string>
     <string name="add_peer">Дадаць аднарангавы вузел</string>
     <string name="addresses">Адрасы</string>
     <string name="applications">Праграмы</string>
@@ -100,10 +100,10 @@
     <string name="bad_config_reason_invalid_value">Памылковае значэнне</string>
     <string name="bad_config_reason_missing_attribute">Адсутнічае атрыбут</string>
     <string name="bad_config_reason_missing_section">Адсутнічае раздзел</string>
-    <string name="bad_config_reason_syntax_error">Syntax error</string>
-    <string name="bad_config_reason_unknown_attribute">Unknown attribute</string>
-    <string name="bad_config_reason_unknown_section">Unknown section</string>
-    <string name="bad_config_reason_value_out_of_range">Value out of range</string>
+    <string name="bad_config_reason_syntax_error">Сынтаксічная памылка</string>
+    <string name="bad_config_reason_unknown_attribute">Невядомы атрыбут</string>
+    <string name="bad_config_reason_unknown_section">Невядомы раздзел</string>
+    <string name="bad_config_reason_value_out_of_range">Значэнне па-за дыяпазонам</string>
     <string name="bad_extension_error">Файл павінен мець пашырэнне .conf або .zip</string>
     <string name="error_no_qr_found">QR-код не знойдзены ў відарысе</string>
     <string name="error_qr_checksum">Збой спраўджання кантрольнай сумы QR-кода</string>
@@ -114,7 +114,7 @@
     <string name="config_not_found_error">Файл канфігурацыі «%s» не знойдзены</string>
     <string name="config_rename_error">Немагчыма перайменаваць файл канфігурацыі «%s»</string>
     <string name="config_save_error">Немагчыма захаваць канфігурацыю для «%1$s»: %2$s</string>
-    <string name="config_save_success">Successfully saved configuration for “%s”</string>
+    <string name="config_save_success">Канфігурацыя паспяхова захавана для «%s»</string>
     <string name="create_activity_title">Стварыць тунэль AmneziaWG</string>
     <string name="create_bin_dir_error">Немагчыма стварыць лакальны двайковы каталог</string>
     <string name="create_downloads_file_error">Немагчыма стварыць файл у папцы спампоўванняў</string>
@@ -127,7 +127,7 @@
     <string name="copied_to_clipboard">%s скапіявана ў буфер абмену</string>
     <string name="dark_theme_summary_off">У цяперашні час выкарыстоўваецца светлая (дзённая) тэма</string>
     <string name="dark_theme_summary_on">У цяперашні час выкарыстоўваецца цёмная (начная) тэма</string>
-    <string name="dark_theme_title">Use dark theme</string>
+    <string name="dark_theme_title">Выкарыстоўваць цёмную тэму</string>
     <string name="delete">Выдаліць</string>
     <string name="tv_delete">Выберыце тунэль для выдалення</string>
     <string name="tv_select_a_storage_drive">Выбраць дыск</string>
@@ -146,14 +146,14 @@
     <string name="error_up">Памылка пры ўключэнні тунэлю: %s</string>
     <string name="exclude_private_ips">Выключыць прыватныя IP</string>
     <string name="generate_new_private_key">Генерыраваць новы прыватны ключ</string>
-    <string name="generic_error">Unknown “%s” error</string>
+    <string name="generic_error">Невядомая памылка «%s»</string>
     <string name="hint_automatic">(аўтаматычна)</string>
     <string name="hint_generated">(згенерыравана)</string>
     <string name="hint_optional">(неабавязкова)</string>
     <string name="hint_optional_discouraged">(неабавязкова, не рэкамендуецца)</string>
     <string name="hint_random">(выпадковая)</string>
     <string name="illegal_filename_error">Недапушчальная назва файла «%s»</string>
-    <string name="import_error">Unable to import tunnel: %s</string>
+    <string name="import_error">Немагчыма імпартаваць тунэль: %s</string>
     <string name="import_from_qr_code">Імпартаваць тунэль з QR-кода</string>
     <string name="import_success">Імпартавана «%s»</string>
     <string name="interface_title">Інтэрфейс</string>
@@ -165,16 +165,16 @@
     <string name="latest_handshake">Апошні поціск рукі</string>
     <string name="latest_handshake_ago">%s таму</string>
     <string name="listen_port">Порт праслухоўвання</string>
-    <string name="log_export_error">Unable to export log: %s</string>
+    <string name="log_export_error">Немагчыма экпартаваць тунэль: %s</string>
     <string name="log_export_subject">Файл журнала AmneziaWG</string>
     <string name="log_export_success">Захаваць у «%s»</string>
     <string name="log_export_title">Экспартаваць файл журнала</string>
     <string name="log_saver_activity_label">Захаваць журнал</string>
     <string name="log_viewer_pref_summary">Журналы могуць дапамагчы з адладкай праграмы</string>
-    <string name="log_viewer_pref_title">View application log</string>
+    <string name="log_viewer_pref_title">Паглядзець журнал праграмы</string>
     <string name="log_viewer_title">Журнал</string>
-    <string name="logcat_error">Unable to run logcat: </string>
-    <string name="module_enabler_disabled_summary">The experimental kernel module can improve performance</string>
+    <string name="logcat_error">Немагчыма запусціць logcat: </string>
+    <string name="module_enabler_disabled_summary">Эксперыментальны модуль ядра можа палепшыць прадукцыйнасць</string>
     <string name="module_enabler_disabled_title">Enable kernel module backend</string>
     <string name="module_enabler_enabled_summary">The slower userspace backend may improve stability</string>
     <string name="module_enabler_enabled_title">Disable kernel module backend</string>
