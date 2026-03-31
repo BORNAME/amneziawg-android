@@ -236,7 +236,7 @@
     <string name="shell_exit_status_read_error">Shell не можа прачытаць статус выхаду</string>
     <string name="shell_marker_count_error">Shell expected 4 markers, received %d</string>
     <string name="shell_start_error">Shell failed to start: %d</string>
-    <string name="success_application_will_restart">Success. The application will now restart…</string>
+    <string name="success_application_will_restart">Паспяхова выканана. Праграма будзе перазапушчана…</string>
     <string name="toggle_all">Пераключыць усе</string>
     <string name="toggle_error">Памылка пераключэння тунэлю AmneziaWG: %s</string>
     <string name="tools_installer_already">awg і awg-quick ужо ўсталяваны</string>
@@ -286,4 +286,6 @@
     <string name="biometric_auth_error">Збой аўтэнтыфікуйцыі</string>
     <string name="biometric_auth_error_reason">Збой аўтэнтыфікуйцыі: %s</string>
     <string name="import_disclaimer">Пераканайцеся, што вы атрымалі файл канфігурацыі з надзейнай крыніцы.\n\nАфіцыйныя сэрвісы Amnezia даступны толькі на вэб-сайце <a href="https://amnezia.org">amnezia.org</a>\n</string>
+    <string name="tunnel_status_connected">Connected</string>
+    <string name="tunnel_status_connecting">Connecting…</string>
 </resources>
