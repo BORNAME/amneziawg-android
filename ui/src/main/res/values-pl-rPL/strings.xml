@@ -142,6 +142,7 @@
     <string name="error_down">Błąd podczas zamykania tunelu: %s</string>
     <string name="error_fetching_apps">Błąd podczas pobierania listy aplikacji: %s</string>
     <string name="error_root">Proszę uzyskać dostęp do root-a i spróbować ponownie</string>
+    <string name="error_prepare">Error preparing tunnel: %s</string>
     <string name="error_up">Błąd podczas otwierania tunelu: %s</string>
     <string name="exclude_private_ips">Wyklucz prywatne adresy IP</string>
     <string name="generate_new_private_key">Wygeneruj nowy klucz prywatny</string>
@@ -161,6 +162,8 @@
     <string name="key_length_explanation_base64">: Klucze Base64 AmneziaWG-a muszą mieć długość 44 znaków (32 bajty)</string>
     <string name="key_length_explanation_binary">: Klucze AmneziaWG-a muszą mieć wielkość 32 bajtów</string>
     <string name="key_length_explanation_hex">: Klucze Hex AmneziaWG-a muszą mieć długość 64 znaków (32 bajty)</string>
+    <string name="latest_handshake">Latest handshake</string>
+    <string name="latest_handshake_ago">%s ago</string>
     <string name="listen_port">Port nasłuchu</string>
     <string name="log_export_error">Nie można wyeksportować logu: %s</string>
     <string name="log_export_subject">Plik logu programu AmneziaWG dla systemu Android</string>
@@ -182,6 +185,22 @@
     <string name="module_installer_working">Pobieranie i instalowanie…</string>
     <string name="module_version_error">Nie można określić wersji modułu jądra</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">Włączenie jednego tunelu spowoduje wyłączenie innych</string>
     <string name="multiple_tunnels_summary_on">Wiele tuneli może być włączonych jednocześnie</string>
     <string name="multiple_tunnels_title">Zezwól na wiele równoległych tuneli</string>
@@ -204,6 +223,10 @@
     <string name="private_key">Klucz prywatny</string>
     <string name="public_key">Klucz publiczny</string>
     <string name="qr_code_hint">Wskazówka: wygeneruj za pomocą `qrencode -t ansiutf8 &lt; tunnel.conf`.</string>
+    <string name="quick_settings_tile_add_title">Add tile to quick settings panel</string>
+    <string name="quick_settings_tile_add_summary">The shortcut tile toggles the most recent tunnel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">Włączone tunele nie zostaną przywrócone podczas uruchamiania</string>
     <string name="restore_on_boot_summary_on">Włączone tunele zostaną przywrócone podczas uruchamiania</string>
     <string name="restore_on_boot_title">Przywróć podczas uruchamiania</string>
@@ -239,6 +262,7 @@
     <string name="tunnel_create_success">Pomyślnie utworzono tunel „%s”</string>
     <string name="tunnel_error_already_exists">Tunel \"%s\" już istnieje</string>
     <string name="tunnel_error_invalid_name">Nieprawidłowa nazwa</string>
+    <string name="tunnel_list_placeholder">Add a tunnel using the button below</string>
     <string name="tunnel_name">Nazwa tunelu</string>
     <string name="tunnel_on_error">Nie można włączyć tunelu (wgTurnOn zwróciło %d)</string>
     <string name="tunnel_dns_failure">Nie można odnaleźć nazwy hosta DNS: “%s”</string>
@@ -261,4 +285,7 @@
     <string name="biometric_prompt_private_key_title">Uwierzytelnij, aby zobaczyć klucz prywatny</string>
     <string name="biometric_auth_error">Błąd uwierzytelnienia</string>
     <string name="biometric_auth_error_reason">Błąd uwierzytelnienia: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
+    <string name="tunnel_status_connected">Connected</string>
+    <string name="tunnel_status_connecting">Connecting…</string>
 </resources>

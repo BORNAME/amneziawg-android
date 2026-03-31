@@ -136,6 +136,8 @@
     <string name="key_length_explanation_base64">: AmneziaWG base64-nøkler må være 44 tegn (32 byte)</string>
     <string name="key_length_explanation_binary">: AmneziaWG nøkler må være 32 byte</string>
     <string name="key_length_explanation_hex">: AmneziaWG hex-nøkler må være 64 tegn (32 byte)</string>
+    <string name="latest_handshake">Latest handshake</string>
+    <string name="latest_handshake_ago">%s ago</string>
     <string name="listen_port">Lytt på port</string>
     <string name="log_export_error">Kan ikke eksportere logg: %s</string>
     <string name="log_export_subject">AmneziaWG Android loggfil</string>
@@ -157,6 +159,22 @@
     <string name="module_installer_working">Laster ned og installerer…</string>
     <string name="module_version_error">Kunne ikke finne versjon av kjerne-modulen</string>
     <string name="mtu">MTU</string>
+    <string name="junk_packet_count">Junk packet count</string>
+    <string name="junk_packet_min_size">Junk packet minimum size</string>
+    <string name="junk_packet_max_size">Junk packet maximum size</string>
+    <string name="init_packet_junk_size">Init packet junk size</string>
+    <string name="response_packet_junk_size">Response packet junk size</string>
+    <string name="cookie_reply_packet_junk_size">Cookie reply packet junk size</string>
+    <string name="transport_packet_junk_size">Transport packet junk size</string>
+    <string name="init_packet_magic_header">Init packet magic header</string>
+    <string name="response_packet_magic_header">Response packet magic header</string>
+    <string name="underload_packet_magic_header">Underload packet magic header</string>
+    <string name="transport_packet_magic_header">Transport packet magic header</string>
+    <string name="special_junk_i1">Special junk I1</string>
+    <string name="special_junk_i2">Special junk I2</string>
+    <string name="special_junk_i3">Special junk I3</string>
+    <string name="special_junk_i4">Special junk I4</string>
+    <string name="special_junk_i5">Special junk I5</string>
     <string name="multiple_tunnels_summary_off">Når en tunnel slås på vil andre slås av</string>
     <string name="multiple_tunnels_summary_on">Flere tunneler kan være aktivert samtidig</string>
     <string name="multiple_tunnels_title">Tillat flere samtidige tunneler</string>
@@ -179,6 +197,10 @@
     <string name="private_key">Privat Nøkkel</string>
     <string name="public_key">Offentlig nøkkel</string>
     <string name="qr_code_hint">Tips: generer med `qrencode -t ansiutf8 &lt; tunnel.conf`.</string>
+    <string name="quick_settings_tile_add_title">Add tile to quick settings panel</string>
+    <string name="quick_settings_tile_add_summary">The shortcut tile toggles the most recent tunnel</string>
+    <string name="quick_settings_tile_add_failure">Unable to add shortcut tile: error %d</string>
+    <string name="quick_settings_tile_action">Toggle tunnel</string>
     <string name="restore_on_boot_summary_off">Vil ikke ta opp aktive tunneler ved oppstart</string>
     <string name="restore_on_boot_summary_on">Vil ta opp aktive tunneler ved oppstart</string>
     <string name="restore_on_boot_title">Gjenopprett ved oppstart</string>
@@ -237,4 +259,7 @@
     <string name="biometric_prompt_private_key_title">Autentiser for å vise privatnøkkel</string>
     <string name="biometric_auth_error">Autentiseringsfeil</string>
     <string name="biometric_auth_error_reason">Autentiseringsfeil: %s</string>
+    <string name="import_disclaimer">Ensure that you obtained the configuration file from a trusted source.\n\nOfficial Amnezia services are available only at <a href="https://amnezia.org">amnezia.org</a>\n</string>
+    <string name="tunnel_status_connected">Connected</string>
+    <string name="tunnel_status_connecting">Connecting…</string>
 </resources>
